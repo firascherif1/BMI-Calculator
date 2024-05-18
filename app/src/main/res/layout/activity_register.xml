@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/log"
+    android:padding="25dp"
+    tools:context=".view.RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="Register"
+        android:textSize="50dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/etName"
+        android:background="@drawable/round"
+        android:layout_marginTop="80dp"
+        android:padding="8dp"
+        android:hint="Name"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:drawablePadding="8dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/etEmail"
+        android:background="@drawable/round"
+        android:layout_marginTop="30dp"
+        android:padding="8dp"
+        android:hint="Email"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:drawablePadding="8dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/etPassword"
+        android:background="@drawable/round"
+        android:layout_marginTop="30dp"
+        android:padding="8dp"
+        android:paddingLeft="50dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:drawablePadding="8dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Register"
+        android:id="@+id/btnRegister"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border"
+        app:cornerRadius = "20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvLogin"
+        android:text="Already an user? Login"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+</LinearLayout>
